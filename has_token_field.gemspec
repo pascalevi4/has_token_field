@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = HasTokenField::VERSION
   spec.authors       = ["pascalevi4"]
   spec.email         = ["vadim.alekseev777@gmail.com"]
-  spec.description   = "Extend ActiveRecord models to generate uniq secure tokens before saving"
-  spec.summary       = "Generate token for ActiveRecord model"
+  spec.description   = "Extend ActiveRecord models to generate uniq secure tokens"
+  spec.summary       = "Generate tokens for ActiveRecord model"
   spec.homepage      = ""
   spec.license       = "MIT"
 

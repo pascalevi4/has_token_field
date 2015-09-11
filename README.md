@@ -1,6 +1,6 @@
 # HasTokenField
 
-TODO: Write a gem description
+Sometimes you need to generate token fields in your ActiveRecord models. Use has_token_field to implement tokens and avoid code duplication.
 
 ## Installation
 
@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add new field to your table:
+
+```ruby
+class AddTokenToUsers < ActiveRecord::Migration
+  def change
+    add_column :users, :token, :string
+  end
+end
+```
+Then call has_token_field method in model declaration:
+```ruby
+class User < ActiveRecord::Base
+
+  has_token_field :token
+
+end
+```
 
 ## Contributing
 

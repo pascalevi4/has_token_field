@@ -6,7 +6,7 @@ module HasTokenField
     define_singleton_method :make_token do
       loop do
         token = SecureRandom.urlsafe_base64(15).tr('lIO0', 'sxyz')
-        break token unless self.where("#{name}" => token).first
+        break token unless self.where(name => token).first
       end
     end
 
