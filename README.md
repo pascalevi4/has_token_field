@@ -30,9 +30,7 @@ end
 Then call has_token_field method in model declaration:
 ```ruby
 class User < ActiveRecord::Base
-
   has_token_field :token
-
 end
 ```
 
