@@ -1,4 +1,7 @@
 # HasTokenField
+[![Gem Version](https://badge.fury.io/rb/has_token_field.svg)](http://badge.fury.io/rb/has_token_field)
+[![Code Climate](https://codeclimate.com/github/pascalevi4/has_token_field/badges/gpa.svg)](https://codeclimate.com/github/pascalevi4/has_token_field)
+[![Build Status](https://travis-ci.org/pascalevi4/has_token_field.svg?branch=master)](https://travis-ci.org/pascalevi4/has_token_field)
 
 Sometimes you need to generate token fields in your ActiveRecord models. Use has_token_field to implement tokens and avoid code duplication.
 
